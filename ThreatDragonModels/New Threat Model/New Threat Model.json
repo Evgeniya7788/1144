@@ -38,8 +38,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "67999678-8767-412f-9d6c-de7063a4e029",
             "zIndex": 1,
+            "id": "67999678-8767-412f-9d6c-de7063a4e029",
             "data": {
               "type": "tm.Actor",
               "name": "Switch",
@@ -112,8 +112,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "a993b1bc-ae6c-48f6-a827-2d2abbd5c09d",
             "zIndex": 2,
+            "id": "a993b1bc-ae6c-48f6-a827-2d2abbd5c09d",
             "data": {
               "type": "tm.Actor",
               "name": "Командний \nінтерфейс (CLI)",
@@ -173,8 +173,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "87f0b78e-c7d4-44e1-afe8-d3eb85034a3e",
             "zIndex": 3,
+            "id": "87f0b78e-c7d4-44e1-afe8-d3eb85034a3e",
             "data": {
               "type": "tm.Actor",
               "name": "Консольне підключення \n(Console Connection)",
@@ -232,6 +232,9 @@
               "threats": []
             },
             "id": "ccf426b4-b3be-4245-a040-a9067aa77d79",
+            "labels": [
+              "Команди адміністратора"
+            ],
             "source": {
               "x": 650,
               "y": 40
@@ -240,9 +243,6 @@
               "x": 510,
               "y": 80
             },
-            "labels": [
-              "Команди адміністратора"
-            ],
             "vertices": []
           },
           {
@@ -364,6 +364,9 @@
               "threats": []
             },
             "id": "27e301a6-ff74-4d22-a616-ad6ead2c0fa4",
+            "labels": [
+              "Налаштування\nта управління"
+            ],
             "source": {
               "x": 200,
               "y": 80
@@ -371,10 +374,7 @@
             "target": {
               "x": 490,
               "y": 270
-            },
-            "labels": [
-              "Налаштування\nта управління"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -408,6 +408,9 @@
               "threats": []
             },
             "id": "794cfc8c-4553-4704-9c56-eddf343a4c91",
+            "labels": [
+              "Налаштування\nта управління"
+            ],
             "source": {
               "x": 330,
               "y": 110
@@ -416,10 +419,7 @@
               "x": 230,
               "y": 60
             },
-            "vertices": [],
-            "labels": [
-              "Налаштування\nта управління"
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -453,6 +453,9 @@
               "threats": []
             },
             "id": "f11fb2ad-b00f-4607-a534-bc676739b3b2",
+            "labels": [
+              "Надати\nдоступ"
+            ],
             "source": {
               "x": 710,
               "y": 90
@@ -460,10 +463,7 @@
             "target": {
               "cell": "50f68733-67ac-4093-9ffb-5cacaa0581da"
             },
-            "vertices": [],
-            "labels": [
-              "Надати\nдоступ"
-            ]
+            "vertices": []
           },
           {
             "position": {
@@ -486,8 +486,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "50f68733-67ac-4093-9ffb-5cacaa0581da",
             "zIndex": 11,
+            "id": "50f68733-67ac-4093-9ffb-5cacaa0581da",
             "data": {
               "type": "tm.Actor",
               "name": "Конфігураційні файли \n(Configuration Files)",
